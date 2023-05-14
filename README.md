@@ -1,2 +1,17 @@
 # e-neural-improve-doc
 Improve documents .docx with AI
+
+# Requirements 
+python 3.10
+
+# Clone Project
+git clone https://github.com/e-Neural/e-neural-improve-doc.git
+
+# Install Requirements
+pip install -r requirements.txt --no-cache
+
+# Execution
+python improve-doc.py <path_original_doc> <path_save_new_document>
+
+# Exemple
+python improve-doc.py X:/e-neural-improve-doc/teste.docx X:/e-neural-improve-doc/newDocument.docx

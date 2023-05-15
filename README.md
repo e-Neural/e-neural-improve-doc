@@ -11,6 +11,12 @@ git clone https://github.com/e-Neural/e-neural-improve-doc.git
 pip install -r requirements.txt --no-cache
 
 # Execution
+## Set Environment Variable
+### Linux/MacOS
+export open_key=<YOUR_API_KEY>
+### wINODWS
+set open_key=<YOUR_API_KEY>
+
 python improve-doc.py <path_original_doc> <path_save_new_document>
 
 # Exemple
